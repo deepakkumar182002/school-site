@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 
 const Academics = () => {
   return (
@@ -9,7 +9,7 @@ const Academics = () => {
         <div className="grid md:grid-cols-3 gap-8">
           <div className="bg-white p-8 rounded-lg shadow-lg">
             <h3 className="text-2xl font-semibold text-blue-900 mb-4">Primary Education</h3>
-            <p className="text-gray-700 mb-4">Grades 1-5</p>
+            <p className="text-gray-700 mb-4">Grades Pre nursery-5</p>
             <ul className="space-y-2 text-gray-600">
               <li>• Foundation in literacy and numeracy</li>
               <li>• Creative expression and discovery</li>
@@ -31,7 +31,7 @@ const Academics = () => {
           
           <div className="bg-white p-8 rounded-lg shadow-lg">
             <h3 className="text-2xl font-semibold text-blue-900 mb-4">High School</h3>
-            <p className="text-gray-700 mb-4">Grades 9-12</p>
+            <p className="text-gray-700 mb-4">Grades 9-10</p>
             <ul className="space-y-2 text-gray-600">
               <li>• College preparatory curriculum</li>
               <li>• Advanced placement courses</li>

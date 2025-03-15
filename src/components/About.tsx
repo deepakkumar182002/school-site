@@ -1,4 +1,5 @@
-import React from 'react';
+// import React from 'react';
+import image from "../img/Principal.jpeg"
 
 const About = () => {
   return (
@@ -17,14 +18,16 @@ const About = () => {
               <p className="italic">
                 "Education is not just about acquiring knowledge; it is about developing the
                 ability to think critically, communicate effectively, and act ethically. At
-                Excellence Academy, we encourage students to dream big and work hard to achieve
+                Sunrise Convent School, we encourage students to dream big and work hard to achieve
                 their goals."
               </p>
             </div>
           </div>
           <div>
             <img
-              src="https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+              src={image}
+              width={700}
+              height={700}
               alt="Students in classroom"
               className="rounded-lg shadow-lg"
             />
