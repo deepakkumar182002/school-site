@@ -23,8 +23,9 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div>
+          <div >
             <img
+            
               src={image}
               width={700}
               height={700}

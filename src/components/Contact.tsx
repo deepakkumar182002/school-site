@@ -20,7 +20,7 @@ const Contact = () => {
                 <Phone className="w-6 h-6 text-blue-900 mr-4" />
                 <div>
                   <p className="font-semibold">Phone</p>
-                  <p className="text-gray-600">+1 (555) 123-4567</p>
+                  <p className="text-gray-600">+91 63977 65965</p>
                 </div>
               </div>
 
@@ -28,7 +28,7 @@ const Contact = () => {
                 <Mail className="w-6 h-6 text-blue-900 mr-4" />
                 <div>
                   <p className="font-semibold">Email</p>
-                  <p className="text-gray-600">info@excellenceacademy.edu</p>
+                  <p className="text-gray-600">sangeeta.sharma65965@gmail.com</p>
                 </div>
               </div>
 
@@ -37,7 +37,7 @@ const Contact = () => {
                 <div>
                   <p className="font-semibold">Address</p>
                   <p className="text-gray-600">
-                    123 Education Street, Learning City, ST 12345
+                  Sunrise convent School near murliwala kuwa Shamshabad Agra
                   </p>
                 </div>
               </div>
