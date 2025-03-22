@@ -7,7 +7,7 @@ const StudentLife = () => {
   return (
     <section id="student-life" className="py-20">
       <div className="container mx-auto px-4 ">
-        <h2 className="text-4xl font-bold text-blue-900 text-center mb-12">
+        <h2 className="text-4xl font-bold text-red-500 text-center mb-12">
           Student Life
         </h2>
 
@@ -32,7 +32,7 @@ const StudentLife = () => {
             </div>
           </div> */}
 
-          <h3 className="text-2xl text-center font-semibold text-blue-900 mb-6">
+          <h3 className="text-2xl text-center font-semibold text-red-500 mb-6">
             Extracurricular Activities
           </h3>
         <div className="grid md:grid-cols-2 gap-12 items-center ">

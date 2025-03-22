@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { BookOpen, Users, Trophy, Palette } from 'lucide-react';
 
 const Features = () => {
@@ -31,7 +31,7 @@ const Features = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (
             <div key={index} className="bg-white p-8 rounded-lg shadow-lg text-center">
-              <div className="text-blue-900 mb-4 flex justify-center">{feature.icon}</div>
+              <div className="text-red-500 mb-4 flex justify-center">{feature.icon}</div>
               <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
               <p className="text-gray-600">{feature.description}</p>
             </div>

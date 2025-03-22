@@ -20,7 +20,7 @@ function App() {
         <StudentLife />
         <Contact />
       </main>
-      <footer className="bg-blue-900 text-white py-8">
+      <footer className="bg-red-500 text-white py-8">
         <div className="container mx-auto px-4">
           <div className="text-center">
             <p>© 2025 Shodhshala. All rights reserved.</p>

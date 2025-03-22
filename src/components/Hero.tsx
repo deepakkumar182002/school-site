@@ -1,5 +1,5 @@
 // import React from 'react';
-import homeimg from "../img/home image.jpg"
+import homeimg from "../img/Home img.jpeg";
 const Hero = () => {
   return (
     <section id="home" className="pt-20">
@@ -10,25 +10,19 @@ const Hero = () => {
             alt="School building"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-blue-900/70"></div>
+          <div className="absolute inset-0 bg-blue-900/0"></div>
         </div>
-        
+
         <div className="relative container mx-auto px-4 h-full">
           <div className="flex items-center h-full">
-            <div className="max-w-2xl text-white">
-              <h1 className="text-5xl font-bold mb-6">Welcome to Sunrise Convent School</h1>
-              <p className="text-xl mb-8">
-                Where we nurture minds, build character, and inspire excellence. Join us in creating
-                a brighter future for your child.
+            <div className="relative max-w-2xl p-8 bg-red-600/20 backdrop-blur-md rounded-lg">
+              <h1 className="text-4xl md:text-5xl font-bold  mb-6 text-white">
+                Welcome to Sunrise Convent School
+              </h1>
+              <p className="text-xl mb-8 text-white">
+                Where we nurture minds, build character, and inspire excellence.
+                Join us in creating a brighter future for your child.
               </p>
-              {/* <div className="space-x-4">
-                <button className="bg-white text-blue-900 px-8 py-3 rounded-full font-semibold hover:bg-blue-50 transition">
-                  Enroll Now
-                </button>
-                <button className="border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white/10 transition">
-                  Learn More
-                </button>
-              </div> */}
             </div>
           </div>
         </div>
