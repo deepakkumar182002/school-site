@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-20">
           <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold text-red-500">Sunrise Convent School</h1>
+            <h1 className="text-2xl font-bold text-red-500"><span className='bg-red-500 text-white py-1 px-2 rounded-md'>Sunrise</span>Convent School</h1>
           </div>
           
           <div className="hidden md:block">

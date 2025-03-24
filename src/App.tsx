@@ -23,7 +23,7 @@ function App() {
       <footer className="bg-red-500 text-white py-8">
         <div className="container mx-auto px-4">
           <div className="text-center">
-            <p>© 2025 Shodhshala. All rights reserved.</p>
+            <p>© 2025 shodhshala Innotech Pvt Ltd. All rights reserved.</p>
           </div>
         </div>
       </footer>

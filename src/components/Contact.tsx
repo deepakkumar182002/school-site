@@ -15,7 +15,7 @@ const Contact = () => {
               Get in Touch
             </h3>
 
-            <div className="space-y-4 flex flex-col md:flex-row gap-12">
+            <div className="space-y-4 flex flex-col md:flex-row gap-4 md:gap-12">
               <div className="flex items-center">
                 <Phone className="w-6 h-6 text-red-500 mr-4" />
                 <div>
@@ -37,7 +37,7 @@ const Contact = () => {
                 <div>
                   <p className="font-semibold">Address</p>
                   <p className="text-gray-600">
-                  Sunrise convent School near murliwala kuwa Shamshabad Agra
+                  Sunrise convent School, near murliwala kuwa, Shamshabad, Agra
                   </p>
                 </div>
               </div>
