@@ -7,12 +7,14 @@ import About from './components/About';
 import Academics from './components/Academics';
 import StudentLife from './components/StudentLife';
 import Contact from './components/Contact';
+// import FeaturesNav from './components/FeaturesNav';
 
 function App() {
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
       <main>
+      {/* <FeaturesNav /> */}
         <Hero />
         <Features />
         <About />
