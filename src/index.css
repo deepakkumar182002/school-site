@@ -22,3 +22,16 @@ body {
     transform: translateX(-100%);
   }
 }
+
+@keyframes scrollUp {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+.animate-vertical-scroll {
+  display: inline-block;
+  animation: scrollUp 20s linear infinite;
+}

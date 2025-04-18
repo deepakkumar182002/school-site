@@ -5,7 +5,7 @@ import homeimg2 from "../img/home img2.jpg";
 import homeimg3 from "../img/home img3.jpg";
 import homeimg4 from "../img/home img4.jpg";
 import homeimg5 from "../img/home img5.jpg";
-import FeaturesNav from "./FeaturesNav";
+// import FeaturesNav from "./FeaturesNav";
 
 const images = [homeimg1, homeimg2, homeimg3, homeimg4, homeimg5];
 
@@ -41,7 +41,7 @@ const Hero = () => {
   return (
     <section id="home" className="pt-20">
       <div className="relative h-[600px]">
-        <FeaturesNav />
+        {/* <FeaturesNav /> */}
         <div id="carousel" className="absolute inset-0 overflow-hidden">
           {images.map((img, index) => (
             <img
