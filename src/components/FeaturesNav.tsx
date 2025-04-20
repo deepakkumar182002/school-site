@@ -23,7 +23,7 @@ const navItems = [
 const FeaturesNav: React.FC = () => {
   return (
     <>
-    <nav className="w-full sticky top-0 backdrop-blur-md bg-red-600/30 text-red-900 py-4 translate-y-20 z-20 overflow-hidden">
+    <nav className="w-full sticky top-0 backdrop-blur-md bg-blue-600/30 text-white py-4 translate-y-20 z-20 overflow-hidden">
             <div className="container mx-auto px-4">
               <div className="w-full overflow-hidden">
                 

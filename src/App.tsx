@@ -20,6 +20,7 @@ import StudentDevelopment from "./components/StudentDevelopment";
 import SafetySecurity from "./components/SafetySecurity";
 import CulturalActivities from "./components/CulturalActivities";
 import Videogallery from "./components/Videogallery";
+import ClassToppers from "./components/Toppers";
 // import FeaturesNav from './components/FeaturesNav';
 
 function App() {
@@ -62,6 +63,7 @@ function App() {
           <About />
           <Academics />
           <Videogallery />
+          <ClassToppers />
           <StudentLife />
           <Contact />
         </main>

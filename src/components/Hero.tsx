@@ -39,7 +39,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section id="home" className="pt-20">
+    <section id="home" className="pt-10">
       <div className="relative h-[600px]">
         {/* <FeaturesNav /> */}
         <div id="carousel" className="absolute inset-0 overflow-hidden">
